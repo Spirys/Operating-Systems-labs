@@ -1,0 +1,36 @@
+    1  ~
+    2  mkdir ~/week1
+    3  cd week1/
+    4  exit 
+    5  sudo apt-get docker
+    6  sudo apt-get install docker
+    7  whoami
+    8  whoareyou
+    9  man whoami
+   10  man man
+   11  sudo apt-get install docker
+   12  sudo apt-get install -f
+   13  sudo apt-get install docker
+   14  sudo dpkg --configure -a
+   15  sudo apt-get install docker
+   16  apt --fix-broken install 
+   17  sudo apt --fix-broken install 
+   18  sudo apt-get install docker
+   19  cd tmp
+   20  ls
+   21  la
+   22  gcc
+   23  sudo apt install gcc
+   24  cd ~
+   25  mkdir ~/week1
+   26  la
+   27  cd week1/
+   28  la /usr/bin/gcc/ | grep *gcc* | sort -r | > ~/week1/ex1.txt
+   29  la /usr/bin/ | grep *gcc* | sort -r | > ~/week1/ex1.txt
+   30  la
+   31  nano ex1.txt 
+   32  la /usr/bin/ | grep gcc | sort -r | > ~/week1/ex1.txt
+   33  nano ex1.txt 
+   34  la /usr/bin/ | grep gcc | sort -r > ~/week1/ex1.txt
+   35  nano ex1.txt 
+   36  history > ex2.txt
