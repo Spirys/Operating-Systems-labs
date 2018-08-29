@@ -13,6 +13,7 @@ int main(int argc, char const *argv[])
     printf("Choose type (1, 2 or 3):\n");
     char str[256];
 
+    fgets(str, sizeof(str), stdin);
     sscanf(str, "%i", &type);
 
     switch (type)
@@ -68,7 +69,7 @@ void square(int n)
     {
         for (int j = 0; j < n; j++)
         {
-            printf("%d", '*');
+            printf("%s", "*");
         }
         printf("\n");
     }
