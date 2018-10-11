@@ -1,0 +1,5 @@
+Physical address:
+Physical address is the address of memory cell used by hardware.
+
+Virtual address:
+Virtual address is an abstraction layer between user and physical address.
